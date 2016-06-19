@@ -2,3 +2,5 @@ ipch
 *.ipch
 *.db
 debug
+.vs
+*.pch
