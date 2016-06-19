@@ -300,9 +300,10 @@ void main()
 		int x, y;
 		x = 1;
 		y = 1;
-		printf("请输入起始坐标（x，y）:\n");
+		printf("请输入起始坐标（行，列）:\n");
 		rewind(stdin);
 		scanf_s("%d,%d", &x, &y);
+		fflush(stdin);
 		struct timeb startTime, endTime;
 		printf("开始计算.........\n");
 		ftime(&startTime);
@@ -322,7 +323,7 @@ void main()
 		printf("计算结束，总共耗时：%ld毫秒\n", (endTime.time - startTime.time) * 1000 + (endTime.millitm - startTime.millitm));
 		printf("输入c继续下一轮运算，输入q退出\n");
 		rewind(stdin);
-		char *cmd = "";
+		char * cmd = "";
 		fflush(stdin);
 		scanf_s("%c", &cmd);
 	} while (cmd == "q");

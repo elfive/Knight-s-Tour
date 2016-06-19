@@ -1,0 +1,11 @@
+﻿  Knight's Tour.cpp
+c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(323): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“time_t”
+  c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(323): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(323): note: 请考虑在格式字符串中使用“%I64d”
+c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(328): warning C4477: “scanf_s”: 格式字符串“%c”需要类型“char *”的参数，但可变参数 1 拥有了类型“char **”
+  c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(328): note: 此参数由转换说明符使用
+c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(328): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(328): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(328): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  c:\users\administrator\desktop\代码\c++\knignt's tour\knight's tour\knight's tour.cpp(328): note: 此参数用作缓冲区大小
+  Knight's Tour.vcxproj -> C:\Users\Administrator\Desktop\代码\C++\Knignt's Tour\Knight's Tour\Debug\Knight's Tour.exe
